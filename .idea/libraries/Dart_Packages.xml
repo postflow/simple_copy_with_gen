@@ -12,7 +12,7 @@
         <entry key="annotations">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../annotations/lib" />
+              <option value="$USER_HOME$/AppData/Roaming/Pub/Cache/git/simple_copy_with-5968f228b5c45057cf21f7be3c0c45317d1f769d/lib" />
             </list>
           </value>
         </entry>
@@ -530,6 +530,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/git/simple_copy_with-5968f228b5c45057cf21f7be3c0c45317d1f769d/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/analyzer-0.33.6+1/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/args-1.6.0/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/async-2.8.2/lib" />
@@ -604,7 +605,6 @@
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/watcher-0.9.7+15/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/web_socket_channel-1.2.0/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/yaml-2.2.1/lib" />
-      <root url="file://$PROJECT_DIR$/../annotations/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
