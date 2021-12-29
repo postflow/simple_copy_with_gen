@@ -16,13 +16,6 @@
             </list>
           </value>
         </entry>
-        <entry key="annotations">
-          <value>
-            <list>
-              <option value="$USER_HOME$/AppData/Roaming/Pub/Cache/git/simple_copy_with-4dac860270d68be9288ed2a88aa661b9c36d617b/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="args">
           <value>
             <list>
@@ -167,6 +160,13 @@
           <value>
             <list>
               <option value="$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/csslib-0.17.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="cw_annotations">
+          <value>
+            <list>
+              <option value="$USER_HOME$/AppData/Roaming/Pub/Cache/git/simple_copy_with-ee0f0be0219bd1851922cad77c7e2ddf04f7c811/lib" />
             </list>
           </value>
         </entry>
@@ -488,7 +488,7 @@
       </option>
     </properties>
     <CLASSES>
-      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/git/simple_copy_with-4dac860270d68be9288ed2a88aa661b9c36d617b/lib" />
+      <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/git/simple_copy_with-ee0f0be0219bd1851922cad77c7e2ddf04f7c811/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/_fe_analyzer_shared-32.0.0/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/analyzer-3.0.0/lib" />
       <root url="file://$USER_HOME$/AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/args-2.3.0/lib" />
