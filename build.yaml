@@ -6,7 +6,7 @@ targets:
 
 builders:
   cw_annotations:
-    import: "package:cw_annotations/extension_method.dart"
+    import: "package:cw_annotations/annotations.dart"
     builder_factories: ["generateSubclass", "generateExtension"]
     build_extensions: { ".dart": [".g.dart"] }
     auto_apply: dependents
