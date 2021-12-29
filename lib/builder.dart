@@ -1,4 +1,3 @@
-// 1
 import 'package:build/build.dart';
 // 2
 import 'package:source_gen/source_gen.dart';
