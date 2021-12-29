@@ -1,14 +1,14 @@
 targets:
   $default:
     builders:
-      generators|annotations:
+      cw_annotations|cw_annotations:
         enabled: true
 
 builders:
   generators:
     target: ":cw_generators"
     # 1
-    import: "package:build/build.dart"
+    import: "lib/builder.dart"
     # 2
     builder_factories: ["generateSubclass", "generateExtension"]
     # 3
