@@ -6,9 +6,9 @@ targets:
 
 builders:
   generators:
-    target: ":generators"
+    target: ":cw_generators"
     # 1
-    import: "package:generators/builder.dart"
+    import: "package:build/build.dart"
     # 2
     builder_factories: ["generateSubclass", "generateExtension"]
     # 3
