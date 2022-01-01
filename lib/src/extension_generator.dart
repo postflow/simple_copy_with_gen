@@ -35,8 +35,8 @@ class ExtensionGenerator extends GeneratorForAnnotation<ExtensionAnnotation> {
       classBuffer.writeln("${visitor.fields[field]}?  $variable ,");
     }
     classBuffer.writeln('})');
-    classBuffer.writeln('=>');
-    classBuffer.writeln('${visitor.className}()');
+    classBuffer.writeln('=> ${visitor.className}()');
+
     for (final field in visitor.fields.keys) {
       final variable = field.startsWith('_') ? field.replaceFirst('_', '') : field;
 

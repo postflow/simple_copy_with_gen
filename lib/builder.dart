@@ -6,8 +6,5 @@ import 'src/subclass_generator.dart';
 Builder generateExtension(BuilderOptions options) =>
     SharedPartBuilder([ExtensionGenerator()], 'extension_generator');
 
-// Builder copywith(BuilderOptions options) =>
-//     SharedPartBuilder([ExtensionGenerator()], 'extension_generator');
-
 Builder generateSubclass(BuilderOptions options) =>
     SharedPartBuilder([SubclassGenerator()], 'subclass_generator');
