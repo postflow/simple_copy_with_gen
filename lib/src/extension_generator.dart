@@ -20,7 +20,7 @@ class ExtensionGenerator extends GeneratorForAnnotation<ExtensionAnnotation> {
     for (final field in visitor.fields.keys) {
       final variable = field.startsWith('_') ? field.replaceFirst('_', '') : field;
 
-      classBuffer.writeln("'$variable': $field,"); // EX: 'name': _name,
+      classBuffer.writeln("'$variable': $field,");
     }
 
     classBuffer.writeln('};');
