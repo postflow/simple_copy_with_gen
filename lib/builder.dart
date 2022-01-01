@@ -3,7 +3,7 @@ import 'package:source_gen/source_gen.dart';
 import 'src/extension_generator.dart';
 import 'src/subclass_generator.dart';
 
-Builder copywith(BuilderOptions options) =>
+Builder generateExtension(BuilderOptions options) =>
     SharedPartBuilder([ExtensionGenerator()], 'extension_generator');
 
 
