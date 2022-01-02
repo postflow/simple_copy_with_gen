@@ -9,7 +9,7 @@ dependencies:
   build:
   source_gen:
   analyzer:
-  cw_annotations:
+  copy_with_annotations:
     git:
       url: https://github.com/postflow/simple_copy_with.git
       ref: main

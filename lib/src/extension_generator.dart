@@ -1,6 +1,6 @@
 import 'package:build/src/builder/build_step.dart';
 import 'package:analyzer/dart/element/element.dart';
-import 'package:cw_annotations/annotations.dart';
+import 'package:copy_with_annotations/annotations.dart';
 import 'package:source_gen/source_gen.dart';
 
 import 'model_visitor.dart';
@@ -10,11 +10,8 @@ class ExtensionGenerator extends GeneratorForAnnotation<ExtensionAnnotation> {
   String generateForAnnotatedElement(Element element, ConstantReader annotation, BuildStep buildStep) {
     final visitor = ModelVisitor();
     element.visitChildren(visitor);
-
     final classBuffer = StringBuffer();
-
     classBuffer.writeln('extension GeneratedModel on ${visitor.className} {');
-
     classBuffer.writeln('Map<String, dynamic> get variables => {');
 
     for (final field in visitor.fields.keys) {
