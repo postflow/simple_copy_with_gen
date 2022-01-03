@@ -1,4 +1,4 @@
-import 'package:copy_with_annotations/copy_with_annotations.dart';
+import 'package:simple_copy_with_annotations/copy_with_annotations.dart';
 
 part 'profile_model.g.dart';
 
