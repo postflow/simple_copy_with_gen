@@ -11,10 +11,6 @@ dependencies:
   source_gen: ^1.2.1
   analyzer: ^3.0.0
   simple_copy_with_annotations: ^0.0.2
-#    git:
-#      url: https://github.com/postflow/simple_copy_with.git
-#      ref: main
-
 
 dev_dependencies:
   build_runner:
