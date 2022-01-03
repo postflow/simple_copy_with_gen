@@ -4,15 +4,15 @@ Add in you  pubspec.yaml to dependencies section:
 ```
 dependencies:
   ...        
-  copy_with_annotations:
+  simple_copy_with_annotations:
   ...        
 ```   
-and to dev_dependencies ( build_runner & copy_with_generators ):
+and to dev_dependencies ( build_runner & simple_copy_with_generators ):
 ```
 dev_dependencies:
   ...
   build_runner:
-  copy_with_generators:
+  simple_copy_with_generators:
   ...
 ```
 
@@ -22,9 +22,9 @@ Annotate you class copywith annotation. Like this:
 part 'profile_model.g.dart';
 @copywith
 class ProfileModel {
-    String _name = 'Aachman';
-    int _age = 20;
-    bool _codes = true;
+  String _name = 'Aachman';
+  int _age = 20;
+  bool _codes = true;
 }
 ```
 after in console run this command:

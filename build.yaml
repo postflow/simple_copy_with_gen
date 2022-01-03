@@ -1,13 +1,13 @@
 targets:
   $default:
     builders:
-      cw_generators|simple_copy_with_annotations:
+      simple_copy_with_generators|simple_copy_with_annotations:
         enabled: true
 
 builders:
   generators:
     target: ":simple_copy_with_annotations"
-    import: "package:cw_generators/builder.dart"
+    import: "package:simple_copy_with_generators/builder.dart"
     builder_factories: ["generateSubclass", "generateExtension" ]
     build_extensions: { ".dart": [".g.dart"] }
     auto_apply: dependents

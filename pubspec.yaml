@@ -1,5 +1,5 @@
-name: cw_generators
-description: generates a copywith method for classes marked @copywith annotation using build_runner
+name: simple_copy_with_generators
+description: Generates a copywith method for classes marked @copywith annotation using build_runner
 homepage: https://github.com/postflow/simple_copy_with_gen
 version: 0.0.2
 
@@ -11,9 +11,9 @@ dependencies:
   source_gen:
   analyzer:
   simple_copy_with_annotations:
-    git:
-      url: https://github.com/postflow/simple_copy_with.git
-      ref: main
+#    git:
+#      url: https://github.com/postflow/simple_copy_with.git
+#      ref: main
 
 
 dev_dependencies:
